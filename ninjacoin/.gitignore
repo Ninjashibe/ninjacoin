@@ -1,0 +1,34 @@
+src/*.exe
+src/ninjacoin
+src/ninjacoind
+src/test_ninjacoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.ninjacoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+ninjacoin-qt
+Ninjacoin-Qt.app
+
+# Unit-tests
+Makefile.test
+ninjacoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
